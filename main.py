@@ -1,9 +1,7 @@
 
 #from dotenv import load_dotenv
+#load_dotenv()
 from langchain_openai import ChatOpenAI
-
-load_dotenv()
-
 chat_model = ChatOpenAI()
 
 #subject = 'AI'
